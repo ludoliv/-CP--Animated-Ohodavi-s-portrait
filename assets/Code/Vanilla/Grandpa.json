@@ -1,0 +1,33 @@
+{
+    "Changes":[
+        //Grandpa 2 portraits
+        {
+            "LogName": "Grandpa.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Grandpa_1":
+                {
+                    "TargetTexture": "Portraits/Grandpa",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Grandpa/Grandpa.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Grandpa.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Grandpa_2":
+                {
+                    "TargetTexture": "Portraits/Grandpa",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Grandpa/Grandpa.png}}:40..79@6"
+                }
+            }
+        }
+    ]
+}

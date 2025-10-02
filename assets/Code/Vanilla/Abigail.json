@@ -1,0 +1,449 @@
+{
+	"Changes": [
+		//Abigail 10+1 portraits
+		{
+			"LogName": "Abigail.1",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_1":
+				{
+					"TargetTexture": "Portraits/Abigail",
+					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail.png}}:0..39@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail.2",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_2":
+				{
+					"TargetTexture": "Portraits/Abigail",
+					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail.png}}:40..79@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail.3",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_3":
+				{
+					"TargetTexture": "Portraits/Abigail",
+					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail.png}}:80..119@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail.4",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_4":
+				{
+					"TargetTexture": "Portraits/Abigail",
+					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail.png}}:120..159@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail.5",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_5":
+				{
+					"TargetTexture": "Portraits/Abigail",
+					"TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail.png}}:160..199@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail.6",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_6":
+				{
+					"TargetTexture": "Portraits/Abigail",
+					"TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail.png}}:200..239@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail.7",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_7":
+				{
+					"TargetTexture": "Portraits/Abigail",
+					"TargetRect": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail.png}}:240..279@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail.8",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_8":
+				{
+					"TargetTexture": "Portraits/Abigail",
+					"TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail.png}}:280..319@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail.9",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_9":
+				{
+					"TargetTexture": "Portraits/Abigail",
+					"TargetRect": { "X": 0, "Y": 256, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail.png}}:320..359@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail.10",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_10":
+				{
+					"TargetTexture": "Portraits/Abigail",
+					"TargetRect": { "X": 64, "Y": 256, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail.png}}:360..399@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail.11",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_11":
+				{
+					"TargetTexture": "Portraits/Abigail",
+					"TargetRect": { "X": 0, "Y": 320, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail.png}}:400..439@6"
+				}
+			},
+			"When": {"Special portrait": "enabled"}
+		},
+		//Abigail_Beach 10 portraits
+		{
+			"LogName": "Abigail_Beach.1",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Beach_1":
+				{
+					"TargetTexture": "Portraits/Abigail_Beach",
+					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Beach.png}}:0..39@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Beach.2",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Beach_2":
+				{
+					"TargetTexture": "Portraits/Abigail_Beach",
+					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Beach.png}}:40..79@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Beach.3",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Beach_3":
+				{
+					"TargetTexture": "Portraits/Abigail_Beach",
+					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Beach.png}}:80..119@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Beach.4",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Beach_4":
+				{
+					"TargetTexture": "Portraits/Abigail_Beach",
+					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Beach.png}}:120..159@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Beach.5",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Beach_5":
+				{
+					"TargetTexture": "Portraits/Abigail_Beach",
+					"TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Beach.png}}:160..199@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Beach.6",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Beach_6":
+				{
+					"TargetTexture": "Portraits/Abigail_Beach",
+					"TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Beach.png}}:200..239@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Beach.7",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Beach_7":
+				{
+					"TargetTexture": "Portraits/Abigail_Beach",
+					"TargetRect": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Beach.png}}:240..279@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Beach.8",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Beach_8":
+				{
+					"TargetTexture": "Portraits/Abigail_Beach",
+					"TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Beach.png}}:280..319@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Beach.9",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Beach_9":
+				{
+					"TargetTexture": "Portraits/Abigail_Beach",
+					"TargetRect": { "X": 0, "Y": 256, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Beach.png}}:320..359@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Beach.10",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Beach_10":
+				{
+					"TargetTexture": "Portraits/Abigail_Beach",
+					"TargetRect": { "X": 64, "Y": 256, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Beach.png}}:360..399@6"
+				}
+			}
+		},
+
+		//Abigail_Winter 10 portraits
+		{
+			"LogName": "Abigail_Winter.1",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Winter_1":
+				{
+					"TargetTexture": "Portraits/Abigail_Winter",
+					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Winter.png}}:0..39@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Winter.2",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Winter_2":
+				{
+					"TargetTexture": "Portraits/Abigail_Winter",
+					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Winter.png}}:40..79@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Winter.3",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Winter_3":
+				{
+					"TargetTexture": "Portraits/Abigail_Winter",
+					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Winter.png}}:80..119@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Winter.4",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Winter_4":
+				{
+					"TargetTexture": "Portraits/Abigail_Winter",
+					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Winter.png}}:120..159@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Winter.5",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Winter_5":
+				{
+					"TargetTexture": "Portraits/Abigail_Winter",
+					"TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Winter.png}}:160..199@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Winter.6",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Winter_6":
+				{
+					"TargetTexture": "Portraits/Abigail_Winter",
+					"TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Winter.png}}:200..239@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Winter.7",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Winter_7":
+				{
+					"TargetTexture": "Portraits/Abigail_Winter",
+					"TargetRect": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Winter.png}}:240..279@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Winter.8",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Winter_8":
+				{
+					"TargetTexture": "Portraits/Abigail_Winter",
+					"TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Winter.png}}:280..319@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Winter.9",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Winter_9":
+				{
+					"TargetTexture": "Portraits/Abigail_Winter",
+					"TargetRect": { "X": 0, "Y": 256, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Winter.png}}:320..359@6"
+				}
+			}
+		},
+		{
+			"LogName": "Abigail_Winter.10",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Abigail_Winter_10":
+				{
+					"TargetTexture": "Portraits/Abigail_Winter",
+					"TargetRect": { "X": 64, "Y": 256, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Abigail/Abigail_Winter.png}}:360..399@6"
+				}
+			}
+		},
+		//Special animation
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {"AcceptGift_(O)66": "{{i18n: Abigail_amethystgift}}$10"}
+		}
+    ]
+}

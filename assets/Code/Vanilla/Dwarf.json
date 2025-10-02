@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        //Dwarf 1 portrait
+        {
+            "LogName": "Dwarf.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Dwarf_1":
+                {
+                    "TargetTexture": "Portraits/Dwarf",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Dwarf/Dwarf.png}}:0..39@6"
+                }
+            }
+        }
+    ]
+}

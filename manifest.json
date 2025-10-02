@@ -1,0 +1,32 @@
+{
+  "Name": "Animated Ohodavi's portrait Mod",
+  "Author": "OnTheRisk",
+  "Version": "0.9.0",
+  "Description": "Animation for Ohodavi's portrait mod",
+  "UniqueID": "OnTheRisk.OhodaviAnimatedPortrait",
+  "UpdateKeys": ["Nexus:27456"],
+  "ContentPackFor": 
+    {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.6.1"
+    },
+  "Dependencies": 
+  [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "OhoDavi.SDVAnimeP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "PrincessFelicie.UniqueGiftDialoguesExpanded",
+      "IsRequired": false
+    },
+  ],
+}

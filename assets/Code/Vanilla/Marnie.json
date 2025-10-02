@@ -1,0 +1,146 @@
+{
+    "Changes":[
+        //Marnie 5 portraits
+        {
+            "LogName": "Marnie.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Marnie_1":
+                {
+                    "TargetTexture": "Portraits/Marnie",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Marnie.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Marnie_2":
+                {
+                    "TargetTexture": "Portraits/Marnie",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie.png}}:40..79@6"
+                }
+            }
+        },
+        {
+            "LogName": "Marnie.3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Marnie_3":
+                {
+                    "TargetTexture": "Portraits/Marnie",
+                    "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie.png}}:80..119@6"
+                }
+            }
+        },
+        {
+            "LogName": "Marnie.4",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Marnie_4":
+                {
+                    "TargetTexture": "Portraits/Marnie",
+                    "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie.png}}:120..159@6"
+                }
+            }
+        },
+        {
+            "LogName": "Marnie.5",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Marnie_5":
+                {
+                    "TargetTexture": "Portraits/Marnie",
+                    "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie.png}}:160..199@6"
+                }
+            }
+        },
+		//Marnie_Beach 5 portraits
+		{
+			"LogName": "Marnie_Beach.1",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Marnie_Beach_1":
+				{
+					"TargetTexture": "Portraits/Marnie_Beach",
+					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie_Beach.png}}:0..39@6"
+				}
+			}
+		},
+		{
+			"LogName": "Marnie_Beach.2",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Marnie_Beach_2":
+				{
+					"TargetTexture": "Portraits/Marnie_Beach",
+					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie_Beach.png}}:40..79@6"
+				}
+			}
+		},
+		{
+			"LogName": "Marnie_Beach.3",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Marnie_Beach_3":
+				{
+					"TargetTexture": "Portraits/Marnie_Beach",
+					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie_Beach.png}}:80..119@6"
+				}
+			}
+		},
+		{
+			"LogName": "Marnie_Beach.4",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Marnie_Beach_4":
+				{
+					"TargetTexture": "Portraits/Marnie_Beach",
+					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie_Beach.png}}:120..159@6"
+				}
+			}
+		},
+		{
+			"LogName": "Marnie_Beach.5",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Marnie_Beach_5":
+				{
+					"TargetTexture": "Portraits/Marnie_Beach",
+					"TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie_Beach.png}}:160..199@6"
+				}
+			}
+		}
+    ]
+}

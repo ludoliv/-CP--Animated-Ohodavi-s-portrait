@@ -1,0 +1,177 @@
+{
+	"Changes": [
+        //Caroline 4 portraits
+        {
+            "LogName": "Caroline.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Caroline_1":
+                {
+                    "TargetTexture": "Portraits/Caroline",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Caroline.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Caroline_2":
+                {
+                    "TargetTexture": "Portraits/Caroline",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline.png}}:40..79@6"
+                }
+            }
+        },
+        {
+            "LogName": "Caroline.3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Caroline_3":
+                {
+                    "TargetTexture": "Portraits/Caroline",
+                    "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline.png}}:80..119@6"
+                }
+            }
+        },
+        {
+            "LogName": "Caroline.4",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Caroline_4":
+                {
+                    "TargetTexture": "Portraits/Caroline",
+                    "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline.png}}:120..159@6"
+                }
+            }
+        },
+
+		//Caroline_Beach 4 portraits
+		{
+			"LogName": "Caroline_Beach.1",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Caroline_Beach_1":
+				{
+					"TargetTexture": "Portraits/Caroline_Beach",
+					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline_Beach.png}}:0..39@6"
+				}
+			}
+		},
+		{
+			"LogName": "Caroline_Beach.2",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Caroline_Beach_2":
+				{
+					"TargetTexture": "Portraits/Caroline_Beach",
+					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline_Beach.png}}:40..79@6"
+				}
+			}
+		},
+		{
+			"LogName": "Caroline_Beach.3",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Caroline_Beach_3":
+				{
+					"TargetTexture": "Portraits/Caroline_Beach",
+					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline_Beach.png}}:80..119@6"
+				}
+			}
+		},
+		{
+			"LogName": "Caroline_Beach.4",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Caroline_Beach_4":
+				{
+					"TargetTexture": "Portraits/Caroline_Beach",
+					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline_Beach.png}}:120..159@6"
+				}
+			}
+		},
+
+		//Caroline_Winter 4 portraits
+		{
+			"LogName": "Caroline_Winter.1",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Caroline_Winter_1":
+				{
+					"TargetTexture": "Portraits/Caroline_Winter",
+					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline_Winter.png}}:0..39@6"
+				}
+			}
+		},
+		{
+			"LogName": "Caroline_Winter.2",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Caroline_Winter_2":
+				{
+					"TargetTexture": "Portraits/Caroline_Winter",
+					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline_Winter.png}}:40..79@6"
+				}
+			}
+		},
+		{
+			"LogName": "Caroline_Winter.3",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Caroline_Winter_3":
+				{
+					"TargetTexture": "Portraits/Caroline_Winter",
+					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline_Winter.png}}:80..119@6"
+				}
+			}
+		},
+		{
+			"LogName": "Caroline_Winter.4",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Caroline_Winter_4":
+				{
+					"TargetTexture": "Portraits/Caroline_Winter",
+					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Caroline/Caroline_Winter.png}}:120..159@6"
+				}
+			}
+		}
+    ]
+}

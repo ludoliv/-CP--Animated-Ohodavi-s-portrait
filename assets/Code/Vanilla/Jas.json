@@ -1,0 +1,145 @@
+{
+    "Changes":[
+        //Jas 5+3 portraits
+        {
+            "LogName": "Jas.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Jas_1":
+                {
+                    "TargetTexture": "Portraits/Jas",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Jas.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Jas_2":
+                {
+                    "TargetTexture": "Portraits/Jas",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:40..79@6"
+                }
+            }
+        },
+        {
+            "LogName": "Jas.3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Jas_3":
+                {
+                    "TargetTexture": "Portraits/Jas",
+                    "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:80..119@6"
+                }
+            }
+        },
+        {
+            "LogName": "Jas.4",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Jas_4":
+                {
+                    "TargetTexture": "Portraits/Jas",
+                    "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:120..159@6"
+                }
+            }
+        },
+        {
+            "LogName": "Jas.5",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Jas_5":
+                {
+                    "TargetTexture": "Portraits/Jas",
+                    "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:160..199@6"
+                }
+            }
+        },
+        {
+            "LogName": "Jas.6",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Jas_6":
+                {
+                    "TargetTexture": "Portraits/Jas",
+                    "TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:200..239@6"
+                }
+            },
+            "When": {"Special portrait": "enabled"}
+        },
+        {
+            "LogName": "Jas.7",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Jas_7":
+                {
+                    "TargetTexture": "Portraits/Jas",
+                    "TargetRect": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:240..279@6"
+                }
+            },
+            "When": {"Special portrait": "enabled"}
+        },
+        {
+            "LogName": "Jas.8",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Jas_8":
+                {
+                    "TargetTexture": "Portraits/Jas",
+                    "TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:280..319@6"
+                }
+            },
+            "When": {"Special portrait": "enabled"}
+        },
+        //Special Portrait
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Jas",
+            "Entries": {"spring.000": "{{i18n: Jas_jumprope}}$5"},
+            "When":{"Animated Jas": "true"}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Jas",
+            "Entries": {"summer.000": "{{i18n: Jas_jumpropebeach}}$6"},
+            "When":{"Animated Jas": "true"}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                        "GreenRain": "{{i18n: Jascry1}}$7",
+                        "married_Shane": "{{i18n: Jascry2}}$7",
+                        "eventSeen_3910975": "{{i18n: Jascry3}}$7",
+                        "eventSeen_3910975_memory_oneweek": "{{i18n: Jascry4}}$7",
+                        "Sun10": "{{i18n: Jascry5}}$7"
+                    },
+            "When":{"Animated Jas": "true"}
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "Changes":[
+        //Gunther 1 portrait
+        {
+            "LogName": "Gunther.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Gunther_1":
+                {
+                    "TargetTexture": "Portraits/Gunther",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gunther/Gunther.png}}:0..39@6"
+                }
+            }
+        }
+    ]
+}

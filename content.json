@@ -1,0 +1,379 @@
+{
+"Format": "2.6.1",
+//Config (Leo and Answering Machine are 2 config that doesn't match the file name.)
+"ConfigSchema": {
+	"Unique Gift Dialogues Expanded":
+	{
+   		"Section": "Mod Compatiblity",
+    	"AllowValues": "disabled, enabled",
+    	"Default": "enabled",
+		"Description": "Make animated portrait work with dialogue from Unique Gift Dialogues Expanded mod"
+	},
+
+	//Special portrait
+	"Special portrait":
+	{
+		"Section": "Special portrait",
+    	"AllowValues": "disabled, enabled",
+    	"Default": "enabled",
+		"Description": "Special portrait is new face expression for some specific situation(such as giving gift, jas jump rope, etc)."
+	},
+	//Dateable Characters
+	"Animated Abigail":
+	{
+   		"Section": "Dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Leah":
+	{
+   		"Section": "Dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Penny":
+	{
+   		"Section": "Dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Sebastian":
+	{
+   		"Section": "Dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	//Non-dateable Characters
+	"Animated Caroline":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Dwarf":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Gil":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Grandpa":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Gunther":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Gus":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Henchman":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Jas":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Jodi":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Lewis":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Linus":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Marlon":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Marnie":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Pierre":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Sandy":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+
+	"Animated Vincent":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Willy":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	},
+	"Animated Wizard":
+	{
+		"Section": "Non-dateable Characters",
+    	"AllowValues": "true, false",
+    	"Default": true
+	}
+},
+"Changes": [
+		{
+			"LogName": "Abigail Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Abigail.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Abigail": true
+			}
+		},
+		{
+			"LogName": "Caroline Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Caroline.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Caroline": true
+			}
+		},
+		{
+			"LogName": "Dwarf Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Dwarf.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Dwarf": true
+			}
+		},
+		{
+			"LogName": "Gil Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Gil.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Gil": true
+			}
+		},
+		{
+			"LogName": "Gunther Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Gunther.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Gunther": true
+			}
+		},
+		{
+			"LogName": "Gus Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Gus.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Gus": true
+			}
+		},
+		{
+			"LogName": "Henchman Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Henchman.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Henchman": true
+			}
+		},
+		{
+			"LogName": "Jas Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Jas.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Jas": true
+			}
+		},
+		{
+			"LogName": "Jodi Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Jodi.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Jodi": true
+			}
+		},
+		{
+			"LogName": "Leah Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Leah.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Leah": true
+			}
+		},
+		{
+			"LogName": "Lewis Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Lewis.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Lewis": true
+			}
+		},
+		{
+			"LogName": "Linus Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Linus.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Linus": true
+			}
+		},
+		{
+			"LogName": "Marlon Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Marlon.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Marlon": true
+			}
+		},
+		{
+			"LogName": "Marnie Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Marnie.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Marnie": true
+			}
+		},
+		{
+			"LogName": "Penny Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Penny.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Penny": true
+			}
+		},
+		{
+			"LogName": "Pierre Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Pierre.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Pierre": true
+			}
+		},
+		{
+			"LogName": "Sandy Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Sandy.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Sandy": true
+			}
+		},
+		{
+			"LogName": "Sebastian Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Sebastian.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Sebastian": true
+			}
+		},
+		{
+			"LogName": "Vincent Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Vincent.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Vincent": true
+			}
+		},
+		{
+			"LogName": "Willy Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Willy.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Willy": true
+			}
+		},
+		{
+			"LogName": "Wizard Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Vanilla/Wizard.json",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Animated Wizard": true
+			}
+		},
+
+		//Special Portrait Dialogue
+		{
+			"LogName": "Blank Space Add",
+			"Action": "Load",
+			"Priority": "Low",
+			"Target": "Portraits/Abigail, Portraits/Jas, Portraits/Leah, Portraits/Penny, Portraits/Vincent ",
+			"FromFile": "assets/Blank.png",
+			"When":{"Special portrait": "enabled"}
+		}
+	]
+}

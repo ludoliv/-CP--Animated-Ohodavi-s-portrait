@@ -1,0 +1,89 @@
+{
+    "Changes":[
+        //Linus 6 portraits
+        {
+            "LogName": "Linus.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Linus_1":
+                {
+                    "TargetTexture": "Portraits/Linus",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Linus/Linus.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Linus.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Linus_2":
+                {
+                    "TargetTexture": "Portraits/Linus",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Linus/Linus.png}}:40..79@6"
+                }
+            }
+        },
+        {
+            "LogName": "Linus.3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Linus_3":
+                {
+                    "TargetTexture": "Portraits/Linus",
+                    "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Linus/Linus.png}}:80..119@6"
+                }
+            }
+        },
+        {
+            "LogName": "Linus.4",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Linus_4":
+                {
+                    "TargetTexture": "Portraits/Linus",
+                    "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Linus/Linus.png}}:120..159@6"
+                }
+            }
+        },
+        {
+            "LogName": "Linus.5",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Linus_5":
+                {
+                    "TargetTexture": "Portraits/Linus",
+                    "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Linus/Linus.png}}:160..199@6"
+                }
+            }
+        },
+        {
+            "LogName": "Linus.6",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Linus_6":
+                {
+                    "TargetTexture": "Portraits/Linus",
+                    "TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Linus/Linus.png}}:200..239@6"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,335 @@
+{
+    "Changes":[
+        //Penny 13+1 portraits
+        {
+            "LogName": "Penny.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_1":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_2":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:40..79@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_3":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:80..119@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.4",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_4":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:120..159@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.5",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_5":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:160..199@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.6",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_6":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:200..239@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.7",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_7":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:240..279@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.8",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_8":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:280..319@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.9",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_9":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 0, "Y": 256, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:320..359@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.10",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_10":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 64, "Y": 256, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:360..399@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.11",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_11":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 0, "Y": 320, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:400..439@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.12",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_12":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 64, "Y": 320, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:440..479@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.13",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_13":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 0, "Y": 384, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:480..519@6"
+                }
+            }
+        },
+        {
+            "LogName": "Penny.14",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Penny_14":
+                {
+                    "TargetTexture": "Portraits/Penny",
+                    "TargetRect": { "X": 64, "Y": 384, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:520..559@6"
+                }
+            },
+            "When": {"Special portrait": "enabled"}
+        },
+		//Penny_Beach 9 portraits
+		{
+			"LogName": "Penny_Beach.1",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Penny_Beach_1":
+				{
+					"TargetTexture": "Portraits/Penny_Beach",
+					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny_Beach.png}}:0..39@6"
+				}
+			}
+		},
+		{
+			"LogName": "Penny_Beach.2",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Penny_Beach_2":
+				{
+					"TargetTexture": "Portraits/Penny_Beach",
+					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny_Beach.png}}:40..79@6"
+				}
+			}
+		},
+		{
+			"LogName": "Penny_Beach.3",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Penny_Beach_3":
+				{
+					"TargetTexture": "Portraits/Penny_Beach",
+					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny_Beach.png}}:80..119@6"
+				}
+			}
+		},
+		{
+			"LogName": "Penny_Beach.4",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Penny_Beach_4":
+				{
+					"TargetTexture": "Portraits/Penny_Beach",
+					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny_Beach.png}}:120..159@6"
+				}
+			}
+		},
+		{
+			"LogName": "Penny_Beach.5",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Penny_Beach_5":
+				{
+					"TargetTexture": "Portraits/Penny_Beach",
+					"TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny_Beach.png}}:160..199@6"
+				}
+			}
+		},
+		{
+			"LogName": "Penny_Beach.6",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Penny_Beach_6":
+				{
+					"TargetTexture": "Portraits/Penny_Beach",
+					"TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny_Beach.png}}:200..239@6"
+				}
+			}
+		},
+		{
+			"LogName": "Penny_Beach.8",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Penny_Beach_8":
+				{
+					"TargetTexture": "Portraits/Penny_Beach",
+					"TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny_Beach.png}}:280..319@6"
+				}
+			}
+		},
+		{
+			"LogName": "Penny_Beach.12",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Penny_Beach_12":
+				{
+					"TargetTexture": "Portraits/Penny_Beach",
+					"TargetRect": { "X": 64, "Y": 320, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny_Beach.png}}:440..479@6"
+				}
+			}
+		},
+		{
+			"LogName": "Penny_Beach.13",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Penny_Beach_13":
+				{
+					"TargetTexture": "Portraits/Penny_Beach",
+					"TargetRect": { "X": 0, "Y": 384, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny_Beach.png}}:480..519@6"
+				}
+			}
+		},
+        //Special Portrait
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {"AcceptGift_(O)254": "{{i18n: Penny_melongift}}$13"}
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "Changes":[
+        // Willy 4 portraits
+        {
+            "LogName": "Willy.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Willy_1":
+                {
+                    "TargetTexture": "Portraits/Willy",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Willy/Willy.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Willy.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Willy_2":
+                {
+                    "TargetTexture": "Portraits/Willy",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Willy/Willy.png}}:40..79@6"
+                }
+            }
+        },
+        {
+            "LogName": "Willy.3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Willy_3":
+                {
+                    "TargetTexture": "Portraits/Willy",
+                    "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Willy/Willy.png}}:80..119@6"
+                }
+            }
+        },
+        {
+            "LogName": "Willy.4",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Willy_4":
+                {
+                    "TargetTexture": "Portraits/Willy",
+                    "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Willy/Willy.png}}:120..159@6"
+                }
+            }
+        }
+    ]
+}

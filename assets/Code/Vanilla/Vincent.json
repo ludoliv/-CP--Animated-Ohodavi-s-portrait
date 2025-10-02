@@ -1,0 +1,110 @@
+{
+    "Changes":[
+        // Vincent 4+1 portraits
+        {
+            "LogName": "Vincent.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Vincent_1":
+                {
+                    "TargetTexture": "Portraits/Vincent",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Vincent.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Vincent_2":
+                {
+                    "TargetTexture": "Portraits/Vincent",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:40..79@6"
+                }
+            }
+        },
+        {
+            "LogName": "Vincent.3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Vincent_3":
+                {
+                    "TargetTexture": "Portraits/Vincent",
+                    "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:80..119@6"
+                }
+            }
+        },
+        {
+            "LogName": "Vincent.4",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Vincent_4":
+                {
+                    "TargetTexture": "Portraits/Vincent",
+                    "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:120..159@6"
+                }
+            }
+        },
+        {
+            "LogName": "Vincent.5",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Vincent_5":
+                {
+                    "TargetTexture": "Portraits/Vincent",
+                    "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:160..199@6"
+                }
+            },
+            "When": {"Special portrait": "enabled"}
+        },
+        {
+            "LogName": "Vincent.6",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Vincent_6":
+                {
+                    "TargetTexture": "Portraits/Vincent",
+                    "TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:200..239@6"
+                }
+            },
+            "When": {"Special portrait": "enabled"}
+        },
+        //Special Portrait
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {"AcceptGift_(O)398": "{{i18n: Vincent_grapegift}}$4"},
+            "HasMod:PrincessFelicie.UniqueGiftDialoguesExpanded": "false"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {"AcceptGift_(O)398": "{{i18n: Vincent_grapegiftexpanded1}}#$e#%revealtastePenny398{{i18n: Vincent_grapegiftexpanded2}}"},
+            "When":{"Unique Gift Dialogues Expanded": "enabled"},
+            "HasMod:PrincessFelicie.UniqueGiftDialoguesExpanded": "true"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {"AcceptGift_Hated": "{{i18n: Vincent_hategift}}$5"}
+        }
+    ]
+}

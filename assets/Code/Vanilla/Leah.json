@@ -1,0 +1,392 @@
+{
+    "Changes":[
+        //Leah 9+1 portraits
+        {
+            "LogName": "Leah.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Leah_1":
+                {
+                    "TargetTexture": "Portraits/Leah",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Leah.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Leah_2":
+                {
+                    "TargetTexture": "Portraits/Leah",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah.png}}:40..79@6"
+                }
+            }
+        },
+        {
+            "LogName": "Leah.3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Leah_3":
+                {
+                    "TargetTexture": "Portraits/Leah",
+                    "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah.png}}:80..119@6"
+                }
+            }
+        },
+        {
+            "LogName": "Leah.4",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Leah_4":
+                {
+                    "TargetTexture": "Portraits/Leah",
+                    "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah.png}}:120..159@6"
+                }
+            }
+        },
+        {
+            "LogName": "Leah.5",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Leah_5":
+                {
+                    "TargetTexture": "Portraits/Leah",
+                    "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah.png}}:160..199@6"
+                }
+            }
+        },
+        {
+            "LogName": "Leah.6",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Leah_6":
+                {
+                    "TargetTexture": "Portraits/Leah",
+                    "TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah.png}}:200..239@6"
+                }
+            }
+        },
+        {
+            "LogName": "Leah.7",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Leah_7":
+                {
+                    "TargetTexture": "Portraits/Leah",
+                    "TargetRect": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah.png}}:240..279@6"
+                }
+            }
+        },
+        {
+            "LogName": "Leah.8",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Leah_8":
+                {
+                    "TargetTexture": "Portraits/Leah",
+                    "TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah.png}}:280..319@6"
+                }
+            }
+        },
+        {
+            "LogName": "Leah.9",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Leah_9":
+                {
+                    "TargetTexture": "Portraits/Leah",
+                    "TargetRect": { "X": 0, "Y": 256, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah.png}}:320..359@6"
+                }
+            }
+        },
+        {
+            "LogName": "Leah.10",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Leah_10":
+                {
+                    "TargetTexture": "Portraits/Leah",
+                    "TargetRect": { "X": 64, "Y": 256, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah.png}}:360..399@6"
+                }
+            },
+            "When": {"Special portrait": "enabled"}
+        },
+		//Leah_Beach 8 portraits
+		{
+			"LogName": "Leah_Beach.1",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Beach_1":
+				{
+					"TargetTexture": "Portraits/Leah_Beach",
+					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Beach.png}}:0..39@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Beach.2",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Beach_2":
+				{
+					"TargetTexture": "Portraits/Leah_Beach",
+					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Beach.png}}:40..79@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Beach.3",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Beach_3":
+				{
+					"TargetTexture": "Portraits/Leah_Beach",
+					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Beach.png}}:80..119@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Beach.4",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Beach_4":
+				{
+					"TargetTexture": "Portraits/Leah_Beach",
+					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Beach.png}}:120..159@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Beach.5",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Beach_5":
+				{
+					"TargetTexture": "Portraits/Leah_Beach",
+					"TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Beach.png}}:160..199@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Beach.6",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Beach_6":
+				{
+					"TargetTexture": "Portraits/Leah_Beach",
+					"TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Beach.png}}:200..239@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Beach.7",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Beach_7":
+				{
+					"TargetTexture": "Portraits/Leah_Beach",
+					"TargetRect": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Beach.png}}:240..279@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Beach.8",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Beach_8":
+				{
+					"TargetTexture": "Portraits/Leah_Beach",
+					"TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Beach.png}}:280..319@6"
+				}
+			}
+		},
+		//Leah_Winter 9 portraits
+		{
+			"LogName": "Leah_Winter.1",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Winter_1":
+				{
+					"TargetTexture": "Portraits/Leah_Winter",
+					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Winter.png}}:0..39@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Winter.2",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Winter_2":
+				{
+					"TargetTexture": "Portraits/Leah_Winter",
+					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Winter.png}}:40..79@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Winter.3",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Winter_3":
+				{
+					"TargetTexture": "Portraits/Leah_Winter",
+					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Winter.png}}:80..119@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Winter.4",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Winter_4":
+				{
+					"TargetTexture": "Portraits/Leah_Winter",
+					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Winter.png}}:120..159@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Winter.5",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Winter_5":
+				{
+					"TargetTexture": "Portraits/Leah_Winter",
+					"TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Winter.png}}:160..199@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Winter.6",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Winter_6":
+				{
+					"TargetTexture": "Portraits/Leah_Winter",
+					"TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Winter.png}}:200..239@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Winter.7",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Winter_7":
+				{
+					"TargetTexture": "Portraits/Leah_Winter",
+					"TargetRect": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Winter.png}}:240..279@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Winter.8",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Winter_8":
+				{
+					"TargetTexture": "Portraits/Leah_Winter",
+					"TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Winter.png}}:280..319@6"
+				}
+			}
+		},
+		{
+			"LogName": "Leah_Winter.9",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Leah_Winter_9":
+				{
+					"TargetTexture": "Portraits/Leah_Winter",
+					"TargetRect": { "X": 0, "Y": 256, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Leah/Leah_Winter.png}}:320..359@6"
+				}
+			}
+		},
+		//Special Portrait
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {"AcceptGift_(O)196": "{{i18n: Leah_Saladgift}}"}
+		}
+    ]
+}

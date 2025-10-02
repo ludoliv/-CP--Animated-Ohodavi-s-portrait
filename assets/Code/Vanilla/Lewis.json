@@ -1,0 +1,174 @@
+{
+    "Changes":[
+        //Lewis 6 portraits
+        {
+            "LogName": "Lewis.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Lewis_1":
+                {
+                    "TargetTexture": "Portraits/Lewis",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Lewis.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Lewis_2":
+                {
+                    "TargetTexture": "Portraits/Lewis",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis.png}}:40..79@6"
+                }
+            }
+        },
+        {
+            "LogName": "Lewis.3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Lewis_3":
+                {
+                    "TargetTexture": "Portraits/Lewis",
+                    "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis.png}}:80..119@6"
+                }
+            }
+        },
+        {
+            "LogName": "Lewis.4",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Lewis_4":
+                {
+                    "TargetTexture": "Portraits/Lewis",
+                    "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis.png}}:120..159@6"
+                }
+            }
+        },
+        {
+            "LogName": "Lewis.5",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Lewis_5":
+                {
+                    "TargetTexture": "Portraits/Lewis",
+                    "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis.png}}:160..199@6"
+                }
+            }
+        },
+        {
+            "LogName": "Lewis.6",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Lewis_6":
+                {
+                    "TargetTexture": "Portraits/Lewis",
+                    "TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis.png}}:200..239@6"
+                }
+            }
+        },
+		//Lewis_Winter 6 portraits
+		{
+			"LogName": "Lewis_Winter.1",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Lewis_Winter_1":
+				{
+					"TargetTexture": "Portraits/Lewis_Winter",
+					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis_Winter.png}}:0..39@6"
+				}
+			}
+		},
+		{
+			"LogName": "Lewis_Winter.2",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Lewis_Winter_2":
+				{
+					"TargetTexture": "Portraits/Lewis_Winter",
+					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis_Winter.png}}:40..79@6"
+				}
+			}
+		},
+		{
+			"LogName": "Lewis_Winter.3",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Lewis_Winter_3":
+				{
+					"TargetTexture": "Portraits/Lewis_Winter",
+					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis_Winter.png}}:80..119@6"
+				}
+			}
+		},
+		{
+			"LogName": "Lewis_Winter.4",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Lewis_Winter_4":
+				{
+					"TargetTexture": "Portraits/Lewis_Winter",
+					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis_Winter.png}}:120..159@6"
+				}
+			}
+		},
+		{
+			"LogName": "Lewis_Winter.5",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Lewis_Winter_5":
+				{
+					"TargetTexture": "Portraits/Lewis_Winter",
+					"TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis_Winter.png}}:160..199@6"
+				}
+			}
+		},
+		{
+			"LogName": "Lewis_Winter.6",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"Entries":
+			{
+				"{{ModId}}_Lewis_Winter_6":
+				{
+					"TargetTexture": "Portraits/Lewis_Winter",
+					"TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Lewis/Lewis_Winter.png}}:200..239@6"
+				}
+			}
+		}
+    ]
+}

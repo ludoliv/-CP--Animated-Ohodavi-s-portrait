@@ -1,0 +1,47 @@
+{
+    "Changes":[
+        	//Henchman 3 portraits
+        {
+            "LogName": "Henchman.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Henchman_1":
+                {
+                    "TargetTexture": "Portraits/Henchman",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Henchman/Henchman.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Henchman.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Henchman_2":
+                {
+                    "TargetTexture": "Portraits/Henchman",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Henchman/Henchman.png}}:40..79@6"
+                }
+            }
+        },
+        {
+            "LogName": "Henchman.3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Henchman_3":
+                {
+                    "TargetTexture": "Portraits/Henchman",
+                    "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Henchman/Henchman.png}}:80..119@6"
+                }
+            }
+        }
+    ]
+}

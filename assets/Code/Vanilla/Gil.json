@@ -1,0 +1,33 @@
+{
+    "Changes":[
+        //Gil 2 portraits
+        {
+            "LogName": "Gil.1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Gil_1":
+                {
+                    "TargetTexture": "Portraits/Gil",
+                    "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gil/Gil.png}}:0..39@6"
+                }
+            }
+        },
+        {
+            "LogName": "Gil.2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "Entries":
+            {
+                "{{ModId}}_Gil_2":
+                {
+                    "TargetTexture": "Portraits/Gil",
+                    "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gil/Gil.png}}:40..79@6"
+                }
+            }
+        }
+    ]
+}
