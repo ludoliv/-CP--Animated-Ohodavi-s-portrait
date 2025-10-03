@@ -2,14 +2,6 @@
 "Format": "2.6.1",
 //Config (Leo and Answering Machine are 2 config that doesn't match the file name.)
 "ConfigSchema": {
-	"Unique Gift Dialogues Expanded":
-	{
-   		"Section": "Mod Compatiblity",
-    	"AllowValues": "disabled, enabled",
-    	"Default": "enabled",
-		"Description": "Make animated portrait work with dialogue from Unique Gift Dialogues Expanded mod"
-	},
-
 	//Special portrait
 	"Special portrait":
 	{
@@ -17,6 +9,13 @@
     	"AllowValues": "disabled, enabled",
     	"Default": "enabled",
 		"Description": "Special portrait is new face expression for some specific situation(such as giving gift, jas jump rope, etc)."
+	},
+	"Seasonal Portraits":
+	{
+		"Section": "Special portrait",
+		"AllowValues": "disabled, enabled",
+		"Default": "enabled",
+		"Description": "Add Seasonal Portraits to characters"
 	},
 	//Dateable Characters
 	"Animated Abigail":
@@ -154,6 +153,60 @@
     	"Default": true
 	}
 },
+"DynamicTokens": [
+	{
+		"Name": "isWinter",
+		"Value": "",
+		"When": {
+			"Season": "Spring, Summer, Fall"
+		}
+	},
+	{
+		"Name": "isWinter",
+		"Value": "_Winter",
+		"When": {
+			"Season": "Winter"
+		}
+	},
+	{
+		"Name": "Seasonal",
+		"Value": "_Spring",
+		"When": {
+			"Season": "Spring"
+		}
+	},
+	{
+		"Name": "Seasonal",
+		"Value": "_Spring",
+		"When": {
+			"Season": "Summer, Fall",
+			"Seasonal Portraits": "disabled"
+		}
+	},
+	{
+		"Name": "Seasonal",
+		"Value": "_Summer",
+		"When": {
+			"Season": "Summer",
+			"Seasonal Portraits": "enabled"
+		}
+	},
+	{
+		"Name": "Seasonal",
+		"Value": "_Fall",
+		"When": {
+			"Season": "Fall",
+			"Seasonal Portraits": "enabled"
+		}
+	},
+	{
+		"Name": "Seasonal",
+		"Value": "_Winter",
+		"When": {
+			"Season": "Winter"
+		}
+	}
+],
 "Changes": [
 		{
 			"LogName": "Abigail Include",

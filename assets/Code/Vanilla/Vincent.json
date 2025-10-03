@@ -98,7 +98,6 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {"AcceptGift_(O)398": "{{i18n: Vincent_grapegiftexpanded1}}#$e#%revealtastePenny398{{i18n: Vincent_grapegiftexpanded2}}"},
-            "When":{"Unique Gift Dialogues Expanded": "enabled"},
             "HasMod:PrincessFelicie.UniqueGiftDialoguesExpanded": "true"
         },
         {

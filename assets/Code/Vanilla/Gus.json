@@ -1,116 +1,59 @@
 {
     "Changes":[
-        	//Gus 4 portraits
-    {
-		"LogName": "Gus.1",
-		"Action": "EditData",
-		"Target": "spacechase0.SpaceCore/TextureOverrides",
-		"Entries":
+        //Gus 4 portraits
 		{
-			"{{ModId}}_Gus_1":
-			{
-				"TargetTexture": "Portraits/Gus",
-				"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
-				"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus.png}}:0..39@6"
-			}
-		}
-	},
-	{
-		"LogName": "Gus.2",
-		"Action": "EditData",
-		"Target": "spacechase0.SpaceCore/TextureOverrides",
-		"Entries":
-		{
-			"{{ModId}}_Gus_2":
-			{
-				"TargetTexture": "Portraits/Gus",
-				"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
-				"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus.png}}:40..79@6"
-			}
-		}
-	},
-	{
-		"LogName": "Gus.3",
-		"Action": "EditData",
-		"Target": "spacechase0.SpaceCore/TextureOverrides",
-		"Entries":
-		{
-			"{{ModId}}_Gus_3":
-			{
-				"TargetTexture": "Portraits/Gus",
-				"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
-				"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus.png}}:80..119@6"
-			}
-		}
-	},
-	{
-		"LogName": "Gus.4",
-		"Action": "EditData",
-		"Target": "spacechase0.SpaceCore/TextureOverrides",
-		"Entries":
-		{
-			"{{ModId}}_Gus_4":
-			{
-				"TargetTexture": "Portraits/Gus",
-				"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
-				"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus.png}}:120..159@6"
-			}
-		}
-	},
-		//Gus_Winter 4 portraits
-		{
-			"LogName": "Gus_Winter.1",
+			"LogName": "Gus.1",
 			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/TextureOverrides",
 			"Entries":
 			{
-				"{{ModId}}_Gus_Winter_1":
+				"{{ModId}}_Gus_1":
 				{
-					"TargetTexture": "Portraits/Gus_Winter",
+					"TargetTexture": "Portraits/Gus{{isWinter}}",
 					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus_Winter.png}}:0..39@6"
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus{{Seasonal}}.png}}:0..39@6"
 				}
 			}
 		},
 		{
-			"LogName": "Gus_Winter.2",
+			"LogName": "Gus.2",
 			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/TextureOverrides",
 			"Entries":
 			{
-				"{{ModId}}_Gus_Winter_2":
+				"{{ModId}}_Gus_2":
 				{
-					"TargetTexture": "Portraits/Gus_Winter",
+					"TargetTexture": "Portraits/Gus{{isWinter}}",
 					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus_Winter.png}}:40..79@6"
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus{{Seasonal}}.png}}:40..79@6"
 				}
 			}
 		},
 		{
-			"LogName": "Gus_Winter.3",
+			"LogName": "Gus.3",
 			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/TextureOverrides",
 			"Entries":
 			{
-				"{{ModId}}_Gus_Winter_3":
+				"{{ModId}}_Gus_3":
 				{
-					"TargetTexture": "Portraits/Gus_Winter",
+					"TargetTexture": "Portraits/Gus{{isWinter}}",
 					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus_Winter.png}}:80..119@6"
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus{{Seasonal}}.png}}:80..119@6"
 				}
 			}
 		},
 		{
-			"LogName": "Gus_Winter.4",
+			"LogName": "Gus.4",
 			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/TextureOverrides",
 			"Entries":
 			{
-				"{{ModId}}_Gus_Winter_4":
+				"{{ModId}}_Gus_4":
 				{
-					"TargetTexture": "Portraits/Gus_Winter",
+					"TargetTexture": "Portraits/Gus{{isWinter}}",
 					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus_Winter.png}}:120..159@6"
+					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gus/Gus{{Seasonal}}.png}}:120..159@6"
 				}
 			}
 		}

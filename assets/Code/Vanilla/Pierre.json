@@ -9,9 +9,9 @@
             {
                 "{{ModId}}_Pierre_1":
                 {
-                    "TargetTexture": "Portraits/Pierre",
+                    "TargetTexture": "Portraits/Pierre{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
-                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre.png}}:0..39@6"
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre{{Seasonal}}.png}}:0..39@6"
                 }
             }
         },
@@ -23,9 +23,9 @@
             {
                 "{{ModId}}_Pierre_2":
                 {
-                    "TargetTexture": "Portraits/Pierre",
+                    "TargetTexture": "Portraits/Pierre{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
-                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre.png}}:40..79@6"
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre{{Seasonal}}.png}}:40..79@6"
                 }
             }
         },
@@ -37,9 +37,9 @@
             {
                 "{{ModId}}_Pierre_3":
                 {
-                    "TargetTexture": "Portraits/Pierre",
+                    "TargetTexture": "Portraits/Pierre{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
-                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre.png}}:80..119@6"
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre{{Seasonal}}.png}}:80..119@6"
                 }
             }
         },
@@ -51,9 +51,9 @@
             {
                 "{{ModId}}_Pierre_4":
                 {
-                    "TargetTexture": "Portraits/Pierre",
+                    "TargetTexture": "Portraits/Pierre{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
-                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre.png}}:120..159@6"
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre{{Seasonal}}.png}}:120..159@6"
                 }
             }
         },
@@ -65,9 +65,9 @@
             {
                 "{{ModId}}_Pierre_5":
                 {
-                    "TargetTexture": "Portraits/Pierre",
+                    "TargetTexture": "Portraits/Pierre{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
-                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre.png}}:160..199@6"
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre{{Seasonal}}.png}}:160..199@6"
                 }
             }
         },
@@ -125,77 +125,6 @@
 					"TargetTexture": "Portraits/Pierre_Beach",
 					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
 					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre_Beach.png}}:120..159@6"
-				}
-			}
-		},
-		//Pierre_Winter 5 portraits
-		{
-			"LogName": "Pierre_Winter.1",
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/TextureOverrides",
-			"Entries":
-			{
-				"{{ModId}}_Pierre_Winter_1":
-				{
-					"TargetTexture": "Portraits/Pierre_Winter",
-					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre_Winter.png}}:0..39@6"
-				}
-			}
-		},
-		{
-			"LogName": "Pierre_Winter.2",
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/TextureOverrides",
-			"Entries":
-			{
-				"{{ModId}}_Pierre_Winter_2":
-				{
-					"TargetTexture": "Portraits/Pierre_Winter",
-					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre_Winter.png}}:40..79@6"
-				}
-			}
-		},
-		{
-			"LogName": "Pierre_Winter.3",
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/TextureOverrides",
-			"Entries":
-			{
-				"{{ModId}}_Pierre_Winter_3":
-				{
-					"TargetTexture": "Portraits/Pierre_Winter",
-					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre_Winter.png}}:80..119@6"
-				}
-			}
-		},
-		{
-			"LogName": "Pierre_Winter.4",
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/TextureOverrides",
-			"Entries":
-			{
-				"{{ModId}}_Pierre_Winter_4":
-				{
-					"TargetTexture": "Portraits/Pierre_Winter",
-					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre_Winter.png}}:120..159@6"
-				}
-			}
-		},
-		{
-			"LogName": "Pierre_Winter.5",
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/TextureOverrides",
-			"Entries":
-			{
-				"{{ModId}}_Pierre_Winter_5":
-				{
-					"TargetTexture": "Portraits/Pierre_Winter",
-					"TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Pierre/Pierre_Winter.png}}:160..199@6"
 				}
 			}
 		}

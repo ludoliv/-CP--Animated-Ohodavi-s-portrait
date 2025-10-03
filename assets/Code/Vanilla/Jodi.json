@@ -9,9 +9,9 @@
             {
                 "{{ModId}}_Jodi_1":
                 {
-                    "TargetTexture": "Portraits/Jodi",
+                    "TargetTexture": "Portraits/Jodi{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
-                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi.png}}:0..39@6"
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi{{Seasonal}}.png}}:0..39@6"
                 }
             }
         },
@@ -23,9 +23,9 @@
             {
                 "{{ModId}}_Jodi_2":
                 {
-                    "TargetTexture": "Portraits/Jodi",
+                    "TargetTexture": "Portraits/Jodi{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
-                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi.png}}:40..79@6"
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi{{Seasonal}}.png}}:40..79@6"
                 }
             }
         },
@@ -37,9 +37,9 @@
             {
                 "{{ModId}}_Jodi_3":
                 {
-                    "TargetTexture": "Portraits/Jodi",
+                    "TargetTexture": "Portraits/Jodi{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
-                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi.png}}:80..119@6"
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi{{Seasonal}}.png}}:80..119@6"
                 }
             }
         },
@@ -51,9 +51,9 @@
             {
                 "{{ModId}}_Jodi_4":
                 {
-                    "TargetTexture": "Portraits/Jodi",
+                    "TargetTexture": "Portraits/Jodi{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
-                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi.png}}:120..159@6"
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi{{Seasonal}}.png}}:120..159@6"
                 }
             }
         },
@@ -65,9 +65,9 @@
             {
                 "{{ModId}}_Jodi_5":
                 {
-                    "TargetTexture": "Portraits/Jodi",
+                    "TargetTexture": "Portraits/Jodi{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
-                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi.png}}:160..199@6"
+                    "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi{{Seasonal}}.png}}:160..199@6"
                 }
             }
         },
@@ -125,77 +125,6 @@
 					"TargetTexture": "Portraits/Jodi_Beach",
 					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
 					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi_Beach.png}}:120..159@6"
-				}
-			}
-		},
-		//Jodi_Winter 5 portraits
-		{
-			"LogName": "Jodi_Winter.1",
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/TextureOverrides",
-			"Entries":
-			{
-				"{{ModId}}_Jodi_Winter_1":
-				{
-					"TargetTexture": "Portraits/Jodi_Winter",
-					"TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi_Winter.png}}:0..39@6"
-				}
-			}
-		},
-		{
-			"LogName": "Jodi_Winter.2",
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/TextureOverrides",
-			"Entries":
-			{
-				"{{ModId}}_Jodi_Winter_2":
-				{
-					"TargetTexture": "Portraits/Jodi_Winter",
-					"TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi_Winter.png}}:40..79@6"
-				}
-			}
-		},
-		{
-			"LogName": "Jodi_Winter.3",
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/TextureOverrides",
-			"Entries":
-			{
-				"{{ModId}}_Jodi_Winter_3":
-				{
-					"TargetTexture": "Portraits/Jodi_Winter",
-					"TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi_Winter.png}}:80..119@6"
-				}
-			}
-		},
-		{
-			"LogName": "Jodi_Winter.4",
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/TextureOverrides",
-			"Entries":
-			{
-				"{{ModId}}_Jodi_Winter_4":
-				{
-					"TargetTexture": "Portraits/Jodi_Winter",
-					"TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi_Winter.png}}:120..159@6"
-				}
-			}
-		},
-		{
-			"LogName": "Jodi_Winter.5",
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/TextureOverrides",
-			"Entries":
-			{
-				"{{ModId}}_Jodi_Winter_5":
-				{
-					"TargetTexture": "Portraits/Jodi_Winter",
-					"TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
-					"SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jodi/Jodi_Winter.png}}:160..199@6"
 				}
 			}
 		}
