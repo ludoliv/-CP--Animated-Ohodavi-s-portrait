@@ -9,7 +9,7 @@
             {
                 "{{ModId}}_Sebastian_1":
                 {
-                    "TargetTexture": "Portraits/Sebastian",
+                    "TargetTexture": "Portraits/Sebastian{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Sebastian/Sebastian.png}}:0..39@6"
                 }
@@ -23,7 +23,7 @@
             {
                 "{{ModId}}_Sebastian_2":
                 {
-                    "TargetTexture": "Portraits/Sebastian",
+                    "TargetTexture": "Portraits/Sebastian{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Sebastian/Sebastian.png}}:40..79@6"
                 }
@@ -37,7 +37,7 @@
             {
                 "{{ModId}}_Sebastian_3":
                 {
-                    "TargetTexture": "Portraits/Sebastian",
+                    "TargetTexture": "Portraits/Sebastian{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Sebastian/Sebastian.png}}:80..119@6"
                 }
@@ -51,7 +51,7 @@
             {
                 "{{ModId}}_Sebastian_4":
                 {
-                    "TargetTexture": "Portraits/Sebastian",
+                    "TargetTexture": "Portraits/Sebastian{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Sebastian/Sebastian.png}}:120..159@6"
                 }
@@ -65,7 +65,7 @@
             {
                 "{{ModId}}_Sebastian_5":
                 {
-                    "TargetTexture": "Portraits/Sebastian",
+                    "TargetTexture": "Portraits/Sebastian{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Sebastian/Sebastian.png}}:160..199@6"
                 }
@@ -79,7 +79,7 @@
             {
                 "{{ModId}}_Sebastian_6":
                 {
-                    "TargetTexture": "Portraits/Sebastian",
+                    "TargetTexture": "Portraits/Sebastian{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Sebastian/Sebastian.png}}:200..239@6"
                 }
@@ -93,7 +93,7 @@
             {
                 "{{ModId}}_Sebastian_7":
                 {
-                    "TargetTexture": "Portraits/Sebastian",
+                    "TargetTexture": "Portraits/Sebastian{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Sebastian/Sebastian.png}}:240..279@6"
                 }
@@ -107,7 +107,7 @@
             {
                 "{{ModId}}_Sebastian_8":
                 {
-                    "TargetTexture": "Portraits/Sebastian",
+                    "TargetTexture": "Portraits/Sebastian{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Sebastian/Sebastian.png}}:280..319@6"
                 }
@@ -121,7 +121,7 @@
             {
                 "{{ModId}}_Sebastian_9":
                 {
-                    "TargetTexture": "Portraits/Sebastian",
+                    "TargetTexture": "Portraits/Sebastian{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 256, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Sebastian/Sebastian.png}}:320..359@6"
                 }
@@ -135,7 +135,7 @@
             {
                 "{{ModId}}_Sebastian_10":
                 {
-                    "TargetTexture": "Portraits/Sebastian",
+                    "TargetTexture": "Portraits/Sebastian{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 256, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Sebastian/Sebastian.png}}:360..399@6"
                 }

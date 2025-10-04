@@ -210,6 +210,48 @@
 			"HasMod":"Poltergeister.SeasonalCuteCharacters"
 		}
 	},
+
+	{
+		"Name": "isWinterNPC",
+		"Value": "",
+		"When": {
+			"Season": "Spring, Summer, Fall, Winter"
+		}
+	},
+	{
+		"Name": "isWinterNPC",
+		"Value": "_Spring",
+		"When": {
+			"Season": "Spring",
+			"HasMod":"Poltergeister.SeasonalCuteCharacters"
+		}
+	},
+	{
+		"Name": "isWinterNPC",
+		"Value": "_Summer",
+		"When": {
+			"Season": "Summer",
+			"HasMod":"Poltergeister.SeasonalCuteCharacters"
+		}
+	},
+	{
+		"Name": "isWinterNPC",
+		"Value": "_Fall",
+		"When": {
+			"Season": "Fall",
+			"HasMod":"Poltergeister.SeasonalCuteCharacters"
+		}
+	},
+	{
+		"Name": "isWinterNPC",
+		"Value": "_Winter",
+		"When": {
+			"Season": "Winter",
+			"isOutdoors": false,
+			"HasMod":"Poltergeister.SeasonalCuteCharacters"
+		}
+	},
+
 	{
 		"Name": "Seasonal",
 		"Value": "_Spring",

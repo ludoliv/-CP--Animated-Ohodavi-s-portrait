@@ -9,7 +9,7 @@
             {
                 "{{ModId}}_Jas_1":
                 {
-                    "TargetTexture": "Portraits/Jas",
+                    "TargetTexture": "Portraits/Jas{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:0..39@6"
                 }
@@ -23,7 +23,7 @@
             {
                 "{{ModId}}_Jas_2":
                 {
-                    "TargetTexture": "Portraits/Jas",
+                    "TargetTexture": "Portraits/Jas{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:40..79@6"
                 }
@@ -37,7 +37,7 @@
             {
                 "{{ModId}}_Jas_3":
                 {
-                    "TargetTexture": "Portraits/Jas",
+                    "TargetTexture": "Portraits/Jas{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:80..119@6"
                 }
@@ -51,7 +51,7 @@
             {
                 "{{ModId}}_Jas_4":
                 {
-                    "TargetTexture": "Portraits/Jas",
+                    "TargetTexture": "Portraits/Jas{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:120..159@6"
                 }
@@ -65,7 +65,7 @@
             {
                 "{{ModId}}_Jas_5":
                 {
-                    "TargetTexture": "Portraits/Jas",
+                    "TargetTexture": "Portraits/Jas{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:160..199@6"
                 }
@@ -79,7 +79,7 @@
             {
                 "{{ModId}}_Jas_6":
                 {
-                    "TargetTexture": "Portraits/Jas",
+                    "TargetTexture": "Portraits/Jas{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:200..239@6"
                 }
@@ -94,7 +94,7 @@
             {
                 "{{ModId}}_Jas_7":
                 {
-                    "TargetTexture": "Portraits/Jas",
+                    "TargetTexture": "Portraits/Jas{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:240..279@6"
                 }
@@ -109,7 +109,7 @@
             {
                 "{{ModId}}_Jas_8":
                 {
-                    "TargetTexture": "Portraits/Jas",
+                    "TargetTexture": "Portraits/Jas{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Jas/Jas.png}}:280..319@6"
                 }

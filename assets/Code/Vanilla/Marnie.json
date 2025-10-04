@@ -9,7 +9,7 @@
             {
                 "{{ModId}}_Marnie_1":
                 {
-                    "TargetTexture": "Portraits/Marnie",
+                    "TargetTexture": "Portraits/Marnie{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie.png}}:0..39@6"
                 }
@@ -23,7 +23,7 @@
             {
                 "{{ModId}}_Marnie_2":
                 {
-                    "TargetTexture": "Portraits/Marnie",
+                    "TargetTexture": "Portraits/Marnie{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie.png}}:40..79@6"
                 }
@@ -37,7 +37,7 @@
             {
                 "{{ModId}}_Marnie_3":
                 {
-                    "TargetTexture": "Portraits/Marnie",
+                    "TargetTexture": "Portraits/Marnie{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie.png}}:80..119@6"
                 }
@@ -51,7 +51,7 @@
             {
                 "{{ModId}}_Marnie_4":
                 {
-                    "TargetTexture": "Portraits/Marnie",
+                    "TargetTexture": "Portraits/Marnie{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie.png}}:120..159@6"
                 }
@@ -65,7 +65,7 @@
             {
                 "{{ModId}}_Marnie_5":
                 {
-                    "TargetTexture": "Portraits/Marnie",
+                    "TargetTexture": "Portraits/Marnie{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marnie/Marnie.png}}:160..199@6"
                 }

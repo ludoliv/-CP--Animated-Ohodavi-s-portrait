@@ -9,7 +9,7 @@
             {
                 "{{ModId}}_Gil_1":
                 {
-                    "TargetTexture": "Portraits/Gil",
+                    "TargetTexture": "Portraits/Gil{{isWinterNPC}}",
                     "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gil/Gil.png}}:0..39@6"
                 }

@@ -9,7 +9,7 @@
             {
                 "{{ModId}}_Vincent_1":
                 {
-                    "TargetTexture": "Portraits/Vincent",
+                    "TargetTexture": "Portraits/Vincent{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:0..39@6"
                 }
@@ -23,7 +23,7 @@
             {
                 "{{ModId}}_Vincent_2":
                 {
-                    "TargetTexture": "Portraits/Vincent",
+                    "TargetTexture": "Portraits/Vincent{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:40..79@6"
                 }
@@ -37,7 +37,7 @@
             {
                 "{{ModId}}_Vincent_3":
                 {
-                    "TargetTexture": "Portraits/Vincent",
+                    "TargetTexture": "Portraits/Vincent{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:80..119@6"
                 }
@@ -51,7 +51,7 @@
             {
                 "{{ModId}}_Vincent_4":
                 {
-                    "TargetTexture": "Portraits/Vincent",
+                    "TargetTexture": "Portraits/Vincent{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:120..159@6"
                 }
@@ -65,7 +65,7 @@
             {
                 "{{ModId}}_Vincent_5":
                 {
-                    "TargetTexture": "Portraits/Vincent",
+                    "TargetTexture": "Portraits/Vincent{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:160..199@6"
                 }
@@ -80,7 +80,7 @@
             {
                 "{{ModId}}_Vincent_6":
                 {
-                    "TargetTexture": "Portraits/Vincent",
+                    "TargetTexture": "Portraits/Vincent{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Vincent/Vincent.png}}:200..239@6"
                 }

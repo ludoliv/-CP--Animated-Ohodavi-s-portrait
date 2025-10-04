@@ -9,7 +9,7 @@
             {
                 "{{ModId}}_Marlon_1":
                 {
-                    "TargetTexture": "Portraits/Marlon",
+                    "TargetTexture": "Portraits/Marlon{{isWinterNPC}}",
                     "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Marlon/Marlon.png}}:0..39@6"
                 }

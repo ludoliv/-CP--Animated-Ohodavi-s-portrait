@@ -9,7 +9,7 @@
             {
                 "{{ModId}}_Wizard_1":
                 {
-                    "TargetTexture": "Portraits/Wizard",
+                    "TargetTexture": "Portraits/Wizard{{isWinterNPC}}",
                     "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Wizard/Wizard.png}}:0..39@6"
                 }
@@ -23,7 +23,7 @@
             {
                 "{{ModId}}_Wizard_2":
                 {
-                    "TargetTexture": "Portraits/Wizard",
+                    "TargetTexture": "Portraits/Wizard{{isWinterNPC}}",
                     "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Wizard/Wizard.png}}:40..79@6"
                 }

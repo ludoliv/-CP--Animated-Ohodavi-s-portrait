@@ -9,7 +9,7 @@
             {
                 "{{ModId}}_Penny_1":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:0..39@6"
                 }
@@ -23,7 +23,7 @@
             {
                 "{{ModId}}_Penny_2":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:40..79@6"
                 }
@@ -37,7 +37,7 @@
             {
                 "{{ModId}}_Penny_3":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:80..119@6"
                 }
@@ -51,7 +51,7 @@
             {
                 "{{ModId}}_Penny_4":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:120..159@6"
                 }
@@ -65,7 +65,7 @@
             {
                 "{{ModId}}_Penny_5":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:160..199@6"
                 }
@@ -79,7 +79,7 @@
             {
                 "{{ModId}}_Penny_6":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:200..239@6"
                 }
@@ -93,7 +93,7 @@
             {
                 "{{ModId}}_Penny_7":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:240..279@6"
                 }
@@ -107,7 +107,7 @@
             {
                 "{{ModId}}_Penny_8":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:280..319@6"
                 }
@@ -121,7 +121,7 @@
             {
                 "{{ModId}}_Penny_9":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 256, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:320..359@6"
                 }
@@ -135,7 +135,7 @@
             {
                 "{{ModId}}_Penny_10":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 256, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:360..399@6"
                 }
@@ -149,7 +149,7 @@
             {
                 "{{ModId}}_Penny_11":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 320, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:400..439@6"
                 }
@@ -163,7 +163,7 @@
             {
                 "{{ModId}}_Penny_12":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 320, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:440..479@6"
                 }
@@ -177,7 +177,7 @@
             {
                 "{{ModId}}_Penny_13":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 0, "Y": 384, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:480..519@6"
                 }
@@ -191,7 +191,7 @@
             {
                 "{{ModId}}_Penny_14":
                 {
-                    "TargetTexture": "Portraits/Penny",
+                    "TargetTexture": "Portraits/Penny{{isWinter}}",
                     "TargetRect": { "X": 64, "Y": 384, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Penny/Penny.png}}:520..559@6"
                 }

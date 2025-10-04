@@ -9,7 +9,7 @@
             {
                 "{{ModId}}_Gunther_1":
                 {
-                    "TargetTexture": "Portraits/Gunther",
+                    "TargetTexture": "Portraits/Gunther{{isWinterNPC}}",
                     "TargetRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
                     "SourceTexture": "{{InternalAssetKey: assets/Vanilla/Gunther/Gunther.png}}:0..39@6"
                 }
