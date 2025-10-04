@@ -5,12 +5,12 @@
   "Description": "Animation for Ohodavi's portrait mod",
   "UniqueID": "OnTheRisk.OhodaviAnimatedPortrait",
   "UpdateKeys": ["Nexus:27456"],
-  "ContentPackFor": 
+  "ContentPackFor":
     {
     "UniqueID": "Pathoschild.ContentPatcher",
     "MinimumVersion": "2.6.1"
     },
-  "Dependencies": 
+  "Dependencies":
   [
     {
       "UniqueID": "Pathoschild.ContentPatcher",
@@ -28,5 +28,9 @@
       "UniqueID": "PrincessFelicie.UniqueGiftDialoguesExpanded",
       "IsRequired": false
     },
+    {
+      "UniqueID": "Poltergeister.SeasonalCuteCharacters",
+      "IsRequired": false
+    }
   ],
 }
